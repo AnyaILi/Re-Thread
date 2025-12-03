@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-Thread - Style With a Second Story</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="newsletter-page">
+    <header>
+        <div class="top-bar">
+            <!-- <label class="top-search">
+                <span class="icon">🔍</span>
+                <input type="search" placeholder="Search site" aria-label="Search">
+            </label> -->
+
+
+
+            <!-- <span class="icon">♡</span>
+            <span class="icon">🛒</span>
+            <span class="icon">👤</span> -->
+        </div>
+        <nav>
+            <div class="nav-left">
+                <a href="clothes.html">Clothes</a>
+                <a href="books.html">Books</a>
+                <a href="trinkets.html">Trinkets</a>
+            </div>
+            <a class="logo" href="index.html">
+                <div class="logo-text">
+                    <span class="outlined">R</span><span class="filled">E</span><span class="outlined">-T</span><span class="filled">HREAD</span>
+                </div>
+                <div class="logo-subtitle">STYLE WITH A SECOND STORY</div>
+            </a>           
+            <div class="nav-right">
+                <a href="aboutUs.html">About Us</a>
+                <a href="newsletter.html">Newsletter</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="main-content">
+        <div class="content-box">
+            <div class="page-header">
+                <h1>Books</h1>
+                <div class="header-controls">
+                    <label class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input id="book-search" class="search-input" type="text" placeholder="Search books" aria-label="Search books">
+                    </label>
+                    <label class="filter-box">
+                        <span class="filter-icon">☰</span>
+                        <select id="book-filter" class="filter-select" aria-label="Filter by price">
+                            <option value="">All prices</option>
+                            <option value="under15">Under $15</option>
+                            <option value="15to20">$15 - $20</option>
+                            <option value="over20">Over $20</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="addListing">
+                <a href="https://forms.gle/XoVyRSFswnvdGcN38" target="_blank" rel="noopener noreferrer" class="cta-button">
+                    Submit a listing
+                </a>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card"
+                     data-name="Fahrenheit 451"
+                     data-price="$20"
+                     data-desc="Fahrenheit 451 for English 10 Honors"
+                     data-contact="student@example.com"
+                     data-pickup-time="Fri, 3:30 PM"
+                     data-pickup-location="Student Center steps"
+                     data-image="images/book1.jpg">
+                    <div class="product-image">
+                        <img src="images/book1.jpg" class="product-photo" alt="Book A">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <span class="product-name">Fahrenheit 451</span>
+                            <span class="product-price">$20</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card"
+                     data-name="Book B"
+                     data-price="$15"
+                     data-desc="Second Book details."
+                     data-contact="student@example.com"
+                     data-pickup-time="Thu, lunch"
+                     data-pickup-location="Library entrance"
+                     data-image="images/book2.jpg">
+                    <div class="product-image">
+                        <img src="images/book2.jpg" class="product-photo" alt="Book B">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <span class="product-name">Book</span>
+                            <span class="product-price">$15</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card"
+                     data-name="Book C"
+                     data-price="$12"
+                     data-desc="Third Book details."
+                     data-contact="student@example.com"
+                     data-pickup-time="Mon, after school"
+                     data-pickup-location="Cafeteria patio"
+                     data-image="images/book3.jpg">
+                    <div class="product-image">
+                        <img src="images/book3.jpg" class="product-photo" alt="Book C">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <span class="product-name">Book</span>
+                            <span class="product-price">$12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card"
+                     data-name="Book D"
+                     data-price="$18"
+                     data-desc="Fourth Book details."
+                     data-contact="student@example.com"
+                     data-pickup-time="Tue, 4:00 PM"
+                     data-pickup-location="Gym lobby"
+                     data-image="images/book4.jpg">
+                    <div class="product-image">
+                        <img src="images/book4.jpg" class="product-photo" alt="Book D">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <span class="product-name">Book</span>
+                            <span class="product-price">$18</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card"
+                     data-name="Book E"
+                     data-price="$10"
+                     data-desc="Fifth Book details."
+                     data-contact="student@example.com"
+                     data-pickup-time="Wed, 3:15 PM"
+                     data-pickup-location="Front office"
+                     data-image="images/book5.jpg">
+                    <div class="product-image">
+                        <img src="images/book5.jpg" class="product-photo" alt="Book E">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <span class="product-name">Book</span>
+                            <span class="product-price">$10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card"
+                     data-name="Book F"
+                     data-price="$22"
+                     data-desc="Sixth Book details."
+                     data-contact="student@example.com"
+                     data-pickup-time="Fri, 2:45 PM"
+                     data-pickup-location="Counseling center benches"
+                     data-image="images/book6.jpg">
+                    <div class="product-image">
+                        <img src="images/book6.jpg" class="product-photo" alt="Book F">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <span class="product-name">Book</span>
+                            <span class="product-price">$22</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <a href="mailto:rethread@warriorlife.net">rethread@warriorlife.net</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📷</span>
+                    <a href="https://instagram.com/rethread" target="_blank">@rethread</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="product-modal" class="modal hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close">×</button>
+            <img class="modal-image" alt="" />
+            <h3 class="modal-name"></h3>
+            <p class="modal-price"></p>
+            <p class="modal-desc"></p>
+            <div class="modal-extra">
+                <p><strong>Contact:</strong> <span class="modal-contact"></span></p>
+                <p><strong>Preferred pickup time/date:</strong> <span class="modal-pickup-time"></span></p>
+                <p><strong>Pickup location:</strong> <span class="modal-pickup-location"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src = "app.js"></script>
+</body>
+</html>
