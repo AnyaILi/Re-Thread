@@ -206,6 +206,7 @@
         .hero-content {
             background-color: rgba(188, 196, 171, 0.85);
             max-width: 1100px;
+            width: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
@@ -1059,23 +1060,27 @@
             .nav-left, .nav-right {
                 gap: 1rem;
             }
-
+            .hero { padding: 1.25rem; }
+            .hero-content { width: 100%; padding: 1.5rem; }
+            .about-section { padding: 1.25rem 1rem; }
+            .about-text-vertical { padding: 0 0 0.75rem; letter-spacing: 0.15rem; }
+/* 
             .hero {
                 padding: 1.5rem;
             }
 
             .hero-content {
                 padding: 2rem;
-            }
+            } */
 
             .hero-image {
                 height: 220px;
             }
 
-            .about-section {
+            /* .about-section {
                 padding: 1.5rem;
                 gap: 1rem;
-            }
+            } */
         /* }
         @media (max-width: 600px) { */
             .home-section,
